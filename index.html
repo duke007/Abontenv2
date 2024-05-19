@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Abonten</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="style.css" rel="stylesheet" />
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abonten splash screen</title>
+    <style>
+        .background {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100vh; /* or any other height you want */
+  background-color: #07003B;
+  background-size: cover;
+  background-position: center;
+}
 
-  <body>
-    <div class="log-page">
-      <div class="log-img">
-        <img
-          src="./images/WhatsApp Image 2024-05-18 at 5.56.07 AM.jpeg"
-          alt="login image"
-        />
-      </div>
+.logo {
+  animation: logoAnimation 3s ease-in-out;
+  border-radius: 50%;
+}
 
-      <div>
-          
-          <div class="main">
-            <div class="logo">
-                <img src="./images/abonten.jpg" alt="" />
-            </div>
-            <div class="button">
-              <button id="b1"><strong> Continue with Google</strong></button
-              ><br />
-              <button id="b2"><strong> Continue with Gmail</strong></button>
-            </div>
-
-          </div>
-      </div>
+@keyframes logoAnimation {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="background">
+        <img src="./images/abonten.jpg" alt="logo" class="logo">
     </div>
-  </body>
+</body>
 </html>
-
-
-
