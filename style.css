@@ -9,15 +9,7 @@
 } 
 
 body{
-/* background-image: url(/images/sunset.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 595px;  
-    backdrop-filter: blur(6px); */
-    background-color:white;
 
-    
 }
 
 
@@ -40,42 +32,37 @@ body{
 .logo{
     margin-bottom: 20px;
     margin-top: 60px;
+   border-style: outset;
+    border-radius: 80%;
+
        
 }
 
 .logo img{
-    width: 300px;
+    width: 250px;
     border-radius: 50%;
+    
 }
-
-
-
-
 
 .button button{
     width: 20rem;
     padding: 10px 0;
     font-size: 18px;
-    border: none;
     color: #3B6A84;
     cursor: pointer; 
-    transition: 0.3s ease;
-    border-radius: 30px; 
-    /* 
-    position: relative;
+    transition: 0.4s ease;
+    border-radius: 30px;
     
-    height:20px;
-    flex-direction: column;
-    margin-left: 100px;
-    display: flex;
-    margin-bottom: 20px;
-     
-     */
 }
 
 #b1{
     margin-bottom: 15px;
+    margin-top: 50px; 
+}
+
+#b2{
+    margin-bottom: 15px;
 }
 .button button:hover{
-    background-color:#07003B;
+    background-color:#466C36;
 }
