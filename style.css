@@ -10,6 +10,7 @@
 
 body{
 
+<<<<<<< HEAD
      background-color: white;
 header{
     background-color: #07003B;
@@ -67,6 +68,8 @@ header{
     margin-left: 50px;
     margin-inline-end: 0px;
     
+=======
+>>>>>>> login-page
 }
 
 /*Footer item style*/
@@ -151,12 +154,49 @@ header{
     flex-direction: column;
 }
 
+<<<<<<< HEAD
 
+=======
+.logo{
+    margin-bottom: 20px;
+    margin-top: 60px;
+   border-style: outset;
+    border-radius: 80%;
+
+       
+}
+
+.logo img{
+    width: 250px;
+    border-radius: 50%;
+    
+}
+
+.button button{
+    width: 20rem;
+    padding: 10px 0;
+    font-size: 18px;
+    color: #3B6A84;
+    cursor: pointer; 
+    transition: 0.4s ease;
+    border-radius: 30px;
+    
+>>>>>>> login-page
 }
 
 #b1{
     margin-bottom: 15px;
+    margin-top: 50px; 
+}
+
+#b2{
+    margin-bottom: 15px;
 }
 .button button:hover{
+<<<<<<< HEAD
     background-color:#07003B ;
 }  */
+=======
+    background-color:#466C36;
+}
+>>>>>>> login-page
