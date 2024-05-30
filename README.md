@@ -1,1 +1,0 @@
-Abonten Tourism Website is designed to showcase the various attractions, activities, and accommodations available in Ghana. From serene beaches and majestic mountains to cultural festivals and historic landmarks, the website serves as a guide for tourists planning their visit. The main focus of this website is the eastern region and we seek to add other region to our portfolio.
