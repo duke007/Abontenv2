@@ -8,137 +8,9 @@
     box-sizing: content-box    
 } 
 
-body{
-
-<<<<<<< HEAD
-     background-color: white;
-header{
-    background-color: #07003B;
-    width: 99%;
-}
-     
-.sidebar li:hover{
-
-    background-color: #4285F4;
-    
-  }  
-  #selected{
-    background-color: #4285F4;
-} 
-
-.sidebar ul li {
-    padding: 17px 10px;
-    font-size: 12px;
-    cursor: pointer;
-    font-weight: 600;
-    transition: 0.3ms ease;
-}
-.logo{
-    margin-bottom: 0px;
-    margin-top: 0px;  
-       
-}
-
-.logo img{
-    width: 70px;
-    border-radius: 90%;
-}
-.slide1{
-    margin-left:0px;
-}
-}
-.slide1 img{
-    width: 600px;
-    height:470px ;
-    margin-bottom: 50px;
-    margin-left: 58%;
-    margin-top: 20px;     
-}
-.slidebar ul{
-    height: 100px;
-}
-
-.slide2{
-    margin-left: 72px;
-}
-.slide2 img{
-    width: 310px;
-    height:180px ;  
-    margin-top: 10px; 
-    margin-left: 50px;
-    margin-inline-end: 0px;
-    
-=======
->>>>>>> login-page
-}
-
-/*Footer item style*/
-.footer {
-    background-color: #07003B;
-    color: #fff;
-    padding: 20px 0;
-   
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 20px;
-    flex-wrap: wrap;
-}
-
-.footer-column {
-    flex: 1;
-    min-width: 300px;
-    margin: 10px;
-}
-.footer-column h3 {
-    border-bottom: 1px solid #444;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-}
- .footer-column ul {
-     list-style-type: none;
-     padding: 0;
- }
- .footer-column ul li {
-     margin: 5px 0;
-}
- .footer-column ul li a {
-     color: #fff;
-     text-decoration: none;
- }
-
-.footer-column ul li a:hover {
-    text-decoration: underline;
-}
-
-.social-icons a {
-    color: #fff;
-    margin: 0 10px;
-    text-decoration: none;
-    font-size: 25px;
-}
-
-.social-icons a:hover {
-    color: #ccc;
-}
-
-/* .col1 img{
-    width: 900px;
-     height: 550px; */
-}
-/* 
-.col2 img{
-    width: 900px;
-     height: 550px; */
-} */ */
 
 
-
-/* .log-page{
+.log-page{
     display:flex;    
 }
 
@@ -152,11 +24,8 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+} 
 
-<<<<<<< HEAD
-
-=======
 .logo{
     margin-bottom: 20px;
     margin-top: 60px;
@@ -181,7 +50,6 @@ header{
     transition: 0.4s ease;
     border-radius: 30px;
     
->>>>>>> login-page
 }
 
 #b1{
@@ -191,12 +59,9 @@ header{
 
 #b2{
     margin-bottom: 15px;
+    
 }
 .button button:hover{
-<<<<<<< HEAD
-    background-color:#07003B ;
-}  */
-=======
     background-color:#466C36;
+    color: #fff;
 }
->>>>>>> login-page
