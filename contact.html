@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Abonten</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/ABONTEN.jpg" type="image/ABONTEN1.jpg" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <a href="#" class="logo">
+                    <img src="images/ABONTEN1.jpg" alt="Abonten" />
+                </a>
+            </div>
+            <div class="container">
+                <div class="search-bar">
+                    <input type="text" placeholder="Eg.Eastern...." />
+                    <button type="submit">Search</button>
+                </div>
+            </div>
+            <div class="section page-header">
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="./about">About us</a></li>
+                            <li><a href="./regions">Regions</a></li>
+                            <li><a href="./review">Review</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <div class="contact-container">
+            <div class="form-container">
+                <h2>Contact Us</h2>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div id="map"></div>
+        </div>
+    </main>
+    <!--footer section-->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <p>Abonten is your gateway to unforgettable travel experiences. Our passion for exploration drives us to
+                    curate unique adventures that leave lasting memories.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="Tour Packages">Tour Packages</a></li>
+                    <li><a href="Accommodation Booking">Accommodation Booking</a></li>
+                    <li><a href="Cultural Experiences">Cultural Experiences</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="Traveling Tips">Traveling Tips</a></li>
+                    <li><a href="Help">Help</a></li>
+                    <li><a href="Career">Career</a></li>
+                    <li><a href="FAQ">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Email: info@abonten.com</li>
+                    <li>Phone: (+233) 2116644</li>
+                    <li>Address: 7th Independent St, Accra, Ghana</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <li><a href="facebook.com"><span class="fa fa-facebook-square" aria-hidden="true"></span></a></li>
+                    <li><a href="twitter.com"><span class="fa fa-twitter-square" aria-hidden="true"></span></a></li>
+                    <li><a href="twitter.com"><span class="fa fa-instagram" aria-hidden="true"></span></a></li>
+                    <li><a href="twitter.com"><span class="fa fa-youtube" aria-hidden="true"></span></a></li>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
