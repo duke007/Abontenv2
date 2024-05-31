@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Abonten - Explore Eastern Ghana</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Colors */
+        .blueblack {
+            color: #fff; /* White */
+        }
+
+        .seablue {
+            color: #42a2b5; /* Sea Green */
+        }
+
+        /* Header and Navigation bar styles */
+        .navbar {
+            background-color: #42a2b5; /* Blue */
+            color: #fff;
+            padding: 15px 0;
+            border: none; /* Remove border */
+            width: 100%; /* Take up entire width */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff; /* Change text color to white */
+        }
+
+        /* Adjustments for horizontal navigation bar */
+        .horizontal-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px; /* Add some margin for spacing */
+        }
+
+        .horizontal-nav a {
+            margin-right: 20px; /* Add margin between links */
+        }
+
+        .horizontal-nav .dropdown {
+            margin-left: auto; /* Push dropdown to the right */
+        }
+
+        .horizontal-nav .dropdown-menu {
+            top: 100%; /* Ensure dropdown menu appears below the button */
+        }
+        
+        /* Footer styles */
+        .footer {
+            background-color: #466C36;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .footer-column h3 {
+            border-bottom: 1px solid #fff; /* White */
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        .footer-column ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .footer-column ul li {
+            margin: 5px 0;
+        }
+
+        .footer-column ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer-column ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+        .social-icons a:hover {
+            color: #ccc;
+        }
+
+        /* New Styles for Flexbox Layout */
+        .nav-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Logo, search bar, and navigation bar -->
+    <header>
+        <div class="nav-container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid" style="background-color: #42a2b5; padding:10px;">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"><img src="./images/ABONTEN.jpg"
+                                        alt="" style="width: 70px;height: 70px; margin-top: -30px; "></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Traveling Tips</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                        <div style="margin-left: 30px; margin-right: 10px;">
+                            <img src="./images/person.svg" alt="profile-pic">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Horizontal Navigation Bar -->
+            <nav class="horizontal-nav">
+                <a href="./index.html">Home</a>
+                <a href="./index.html">Upcoming Event</a>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="regionDropdown" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Region
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="regionDropdown">
+                        <a class="dropdown-item" href="#">Eastern</a>
+                        <a class="dropdown-item" href="#">Greater Accra</a>
+                        <a class="dropdown-item" href="#">Central</a>
+                        <a class="dropdown-item" href="#">Ashanti</a>
+                        <a class="dropdown-item" href="#">Volta</a>
+                        <a class="dropdown-item" href="#">Northern</a>
+                        <a class="dropdown-item" href="#">Upper East</a>
+                        <a class="dropdown-item" href="#">Upper West</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Eastern Region -->
+        <section id="about-eastern-region" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4 seablue">About Eastern Region</h2>
+                <p>The Eastern Region of Ghana, nestled in the southeastern part of the country, offers a blend of cultural heritage, natural beauty, and adventure. From its vibrant capital, Koforidua, to its lush landscapes and traditional festivals, visitors can explore historic towns, hike through dense forests, and immerse themselves in local culture. With attractions like the Boti Falls, Aburi Botanical Gardens, and the scenic Lake Volta, the Eastern Region promises unforgettable experiences for travelers seeking an authentic Ghanaian adventure.</p>
+            </div>
+            <!-- Regions section -->
+            <section id="regions">
+                <div class="container my-5">
+                    <!-- Slideshow of cultural highlights using Bootstrap Carousel -->
+                    <h2 class="text-center mb-4 seablue">Discover</h2>
+                    <div id="cultural-carousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#cultural-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#cultural-carousel" data-slide-to="1"></li>
+                            <li data-target="#cultural-carousel" data-slide-to="2"></li>
+                            <!-- Add more indicators if needed -->
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/Lush rainforests.jpg" class="d-block w-100"  alt="Lush rainforests">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Lush rainforests</h5>
+                                    <p>The Eastern Region of Ghana is home to lush rainforests teeming with diverse plant and animal life. These forests provide vital habitats, regulate local climate, and offer serene environments for visitors to explore nature's beauty.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/akosombo dam.jpg" class="d-block w-100" alt="The Akosombo dam">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Akosombo dam</h5>
+                                    <p>The Akosombo Dam, situated on the Volta River in southeastern Ghana, is a significant hydroelectric facility. Completed in 1965, it created Lake Volta, one of the world's largest artificial reservoirs. The dam generates electricity crucial for Ghana's power supply and supports various industries. Additionally, it facilitates irrigation, fishing, and transportation, contributing to the region's development and economic growth.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/Aburi Bo.jpg" class="d-block w-100" alt="Aburi Botanical Gardens">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Aburi Botanical Gardens</h5>
+                                    <p>The Aburi Botanical Garden, located in the Eastern Region of Ghana, is a renowned horticultural attraction. Established in 1890, it spans over 160 acres and showcases a diverse collection of tropical plants and trees. Visitors can explore lush gardens, picturesque landscapes, and scenic trails while enjoying the tranquility of nature. The garden serves as a recreational space, educational center, and research facility, making it a popular destination for locals and tourists alike.</p>
+                                </div>
+                            </div>
+                            <!-- Add more carousel items if needed -->
+                            <div class="carousel-item">
+                                <img src="images/Kwahu.jpg" class="d-block w-100" alt="Kwahu festival">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Fun in Kwahu</h5>
+                                    <p>Kwahu, nestled in the Eastern Region of Ghana, is renowned for its scenic beauty and vibrant cultural heritage. Perched atop the Kwahu Plateau, it offers breathtaking views of the surrounding landscape. Kwahu is famous for its annual Easter festivities, drawing crowds from far and wide to partake in paragliding, street parties, and cultural celebrations. Additionally, the region boasts diverse outdoor activities, historical sites, and traditional markets, making it a must-visit destination for travelers seeking adventure and cultural immersion.</p>
+                                </div>
+                            </div>
+                            <!-- Add more carousel items if needed -->
+                            <div class="carousel-item">
+                                <img src="images/kente.jpeg" class="d-block w-100" alt="kente">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Kente</h5>
+                                    <p>Kente weaving, a cherished tradition in Ghana's Eastern Region, involves intricate hand-weaving of vibrant fabric strips into meaningful patterns. Symbolizing wealth and identity, kente cloth is deeply rooted in Ghanaian culture, worn proudly on special occasions and ceremonies.</p>
+                                </div>
+                            </div>
+                            <!-- Add more carousel items if needed -->
+                            <div class="carousel-item">
+                                <img src="images/quad biking.jpg" class="d-block w-100" alt="Quad biking">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Adventure</h5>
+                                    <p>ATV adventures in Aburi offer an exciting way to explore the scenic landscapes of Ghana's Eastern Region. Riders navigate rugged trails and hilly terrain, enjoying panoramic views and adrenaline-pumping experiences. Organized by local operators, these tours provide well-maintained vehicles and experienced guides for a safe and memorable adventure.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="historical_landmarks.html">
+                                <img src="images/historical_landmarks.jpg" class="d-block w-100" alt="Historical Landmarks">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Historical Landmarks</h5>
+                                    <p>Explore the rich history of the Eastern Region by visiting its historical landmarks, each telling a unique story of the region's past.</p>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <!-- Controls -->
+                        <a class="carousel-control-prev" href="#cultural-carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#cultural-carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>About Us</h3>
+                    <p>Abonten is your gateway to unforgettable travel experiences. Our passion for exploration drives us to curate unique adventures that leave lasting memories.</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="Activity Booking">Activity Bookings</a></li>
+                        <li><a href="Destination Guide">Destination Guide</a></li>
+                        <li><a href="Accommodation Booking">Accommodation Booking</a></li>
+                        <li><a href="Customer Support">Customer Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="Traveling Tips">Traveling Tips</a></li>
+                        <li><a href="Help">Help</a></li>
+                        <li><a href="Career">Career</a></li>
+                        <li><a href="FAQ">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>Email: info@abonten.com</li>
+                        <li>Phone: (+233) 2116644</li>
+                        <li>Address: 7th Independent St, Accra, Ghana</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
